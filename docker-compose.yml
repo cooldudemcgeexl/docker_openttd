@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  openttd:
+    image: cooldudemcgeexl/openttd-docker
+    volumes:
+      - /home/{username}/.openttd:/config:rw
+    ports:
+      - "3979:3979/tcp"
+      - "3979:3979/udp"

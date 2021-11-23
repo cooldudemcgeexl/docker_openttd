@@ -1,5 +1,5 @@
 # OpenTTD in Docker
-__An image brought to you by /r/openttd__
+__An image *originally* brought to you by /r/openttd, now updated__
 
 ![Build and Push Latest Versions](https://github.com/ropenttd/docker_openttd/workflows/Build%20and%20Push%20Latest%20Versions/badge.svg?branch=master)
 [![](https://images.microbadger.com/badges/image/redditopenttd/openttd.svg)](https://microbadger.com/images/redditopenttd/openttd "Get your own image badge on microbadger.com")
