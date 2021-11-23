@@ -4,7 +4,7 @@ services:
   openttd:
     image: cooldudemcgeexl/openttd-docker
     volumes:
-      - /home/{username}/.openttd:/config:rw
+      - /home/${USER}/.openttd:/config:rw
     ports:
       - "3979:3979/tcp"
       - "3979:3979/udp"
