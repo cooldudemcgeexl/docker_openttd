@@ -3,6 +3,7 @@ version: '3.9'
 services:
   openttd:
     image: cooldudemcgeexl/openttd-docker
+    container_name: openttd-server
     volumes:
       - /home/${USER}/.openttd:/config:rw
     ports:
